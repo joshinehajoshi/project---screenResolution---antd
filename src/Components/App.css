@@ -1,0 +1,42 @@
+.header .ant-menu li.ant-menu-item {
+    color: yellowgreen;
+}
+
+.ant-table-wrapper {
+    clear: both;
+    max-width: 100%;
+    background-color: cadetblue;
+}
+
+.ant-form {
+    padding-top: 25px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 25px;
+}
+
+.form-div {
+    position: relative;
+    top: 55px;
+    background-color: teal;
+}
+
+[data-theme='compact'] .ant-advanced-search-form .ant-form-item,
+.ant-advanced-search-form .ant-form-item {
+  display: flex;
+}
+
+[data-theme='compact'] .ant-advanced-search-form .ant-form-item-control-wrapper,
+.ant-advanced-search-form .ant-form-item-control-wrapper {
+  flex: 1;
+}
+
+.ant-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+body {
+    background-color: aliceblue;
+}
